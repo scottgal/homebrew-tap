@@ -28,8 +28,7 @@ cask "mylo" do
   sha256 arm:   "2d5a3267bafaef830d7238382067c8f5f89b4278b500479c5efe47cc1a0d11ab",
          intel: "222a8bfad3d200cbb20b701189aafd80f9c8b5667b040c9b5b3ead8d04ef8686"
 
-  url "https://github.com/scottgal/lucidview/releases/download/mylo-v#{version}/mylo-osx-#{arch}.zip",
-      verified: "github.com/scottgal/lucidview/"
+  url "https://github.com/scottgal/lucidview/releases/download/mylo-v#{version}/mylo-osx-#{arch}.zip"
   name "mylo"
   desc "Native RSS and Atom reader built on the lucidVIEW rendering stack"
   homepage "https://github.com/scottgal/lucidview"
