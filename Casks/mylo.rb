@@ -24,9 +24,9 @@
 cask "mylo" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.2.7"
-  sha256 arm:   "17b783ed22e683f2e48eb7f8a9d6bab50c9f2dc97236011289f325deb402fd48",
-         intel: "12377621071d3c0782156794604fc1cd69de6aa84e687f27009e470bb4d19f55"
+  version "0.2.8"
+  sha256 arm:   "91014de2138aa6df09990e3bc63719d71d11715d55fe6f9df4022b5dbe9e1830",
+         intel: "8acb8ebb75b5569a9ee72c2e63b7bdece67495c5984106bbf597e2d5ed9c2c22"
 
   url "https://github.com/scottgal/lucidview/releases/download/mylo-v#{version}/mylo-osx-#{arch}.zip"
   name "mylo"
